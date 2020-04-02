@@ -1,0 +1,24 @@
+﻿生成启动时间为 19/3/23 下午8:47:06。
+     1>项目“C:\文本分类\文本分类\文本分类.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /I"C:\文本分类\cppjieba\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt TextSimilarity.cpp
+         TextSimilarity.cpp
+     1>c:\文本分类\cppjieba\include\cppjieba\limonp/Logging.hpp(46): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+     1>c:\文本分类\cppjieba\include\cppjieba\limonp/StringUtil.hpp(83): warning C4800: “int”: 将值强制为布尔值“true”或“false”(性能警告)
+     1>c:\文本分类\cppjieba\include\cppjieba\limonp/StringUtil.hpp(353): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\time.h(505): note: 参见“localtime”的声明
+       Link:
+         C:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\文本分类\Release\文本分类.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\文本分类\Release\文本分类.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\文本分类\Release\文本分类.lib" /MACHINE:X86 /SAFESEH Release\TextSimilarity.obj
+         "Release\源.obj"
+         正在生成代码
+         2 of 3308 functions ( 0.1%) were compiled, the rest were copied from previous compilation.
+           0 functions were new in current compilation
+           5 functions had inline decision re-evaluated but remain unchanged
+         已完成代码的生成
+         文本分类.vcxproj -> C:\文本分类\Release\文本分类.exe
+     1>已完成生成项目“C:\文本分类\文本分类\文本分类.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:10.39
